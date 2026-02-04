@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    height: 100vh;
+    width: 100%;
+    background: url(/Profile_Card/images/back.jpg);
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    background-position: center;
+    background-size: cover;
+}
+
+.card{
+    max-width: 30rem;
+    width: 100%;
+    border: 0.01rem solid #ffffff40;
+    border-radius: 1rem;
+    box-shadow: 0 0.2rem 1rem rgba(0,0,0,0.9);
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.profile_pic{
+    position: relative;
+    height: 9rem;
+    width: 9rem;
+}
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0 0.2rem 1rem rgba(0,0,0,0.9);
+}
+
+.social_info{
+    display: flex;
+    margin-top: 2rem;
+    align-items: center;
+}
+
+.social_info .info{
+    text-align: center;
+    padding: 0 1rem;
+}
+
+.btns{
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.btns .btn{
+    color: #fff;
+    text-decoration: none;
+    margin: 0 1.5rem;
+    padding: 0.5rem 1.5rem;
+    border-radius: 2rem;
+    font-size: 1rem;
+    white-space: nowrap;
+    background: linear-gradient(to left, #33ccff 0%, #ff99cc 100%);
+    border: none;
+}
+
+.btn:hover{
+    box-shadow: inset 0 5px 20px rgba(0,0,0,0.4);
+}
