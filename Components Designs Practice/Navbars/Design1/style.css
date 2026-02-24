@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #5e5a6b;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+nav,ul,a{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: none;
+    list-style: none;
+    gap: 24px;
+    color: #fff;
+    font-size: large;
+}
+.logo{
+    color: #fff;
+    font-size: large;
+}
+
+.social-links{
+    gap: 1px;
+}
